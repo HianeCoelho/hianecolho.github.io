@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(157, 127, 254);
+    font-family: 'Didact Gothic';
+    font-size: 10px;
+}
+
+header{
+    background-color: rgb(99, 57, 157);
+    border: 3px;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+h1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    display: inline-block;
+}
+
+img{
+    height: 200px;
+    border-radius: 25px;
+    
+}
+
+.album-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .album-info img {
+    margin-right: 10px;
+  }
+  
+  .album-info p {
+    text-align: left;
+  }
+  
+  .album-info.left-align {
+    justify-content: flex-start;
+  }
+  
+  .album-info.left-align p {
+    text-align: left;
+  }
+
